@@ -9,7 +9,7 @@ int main(){
         return 1;
     }
 
-    cv::namedWindow("window");
+    cv::namedWindow("window", cv::WINDOW_AUTOSIZE);
     cv::imshow("window", image);
     cv::waitKey(0);
     return 0;
